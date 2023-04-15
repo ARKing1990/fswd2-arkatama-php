@@ -1,5 +1,8 @@
 <?php
-
+		// Set variable untuk biodata
+		$nama = "Husein Syahfikri";
+		$tgl_lhr = "Jakarta, 4 September 2001";
+		$jns_klm = "Pria";
 ?>
 <html>
     <head>
@@ -10,7 +13,7 @@
     </head>
     <body>
         <div class="container my-5">
-            <h1>Husein Syahfikri</h1>
+            <h1><?php echo $nama; ?></h1>
             <p class="lead">
                 Program MSIB Fullstack Web Developer ARKATAMA
             </p>
@@ -35,8 +38,8 @@
                     </div>
                     <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Husein Syahfikri</h5>
-                        <p class="card-text">Jakarta, 4 September 2001<br>Pria<br>Jl. Pulo Besar 1 RT05/RW11 No.15 <br> Sunter Jaya, Tanjung Priok, Jakarta Utara <br> DKI Jakarta 14350</p>
+                        <h5 class="card-title"><?php echo $nama; ?></h5>
+                        <p class="card-text"><?php echo $tgl_lhr; ?><br><?php echo $jns_klm; ?><br>Jl. Pulo Besar 1 RT05/RW11 No.15 <br> Sunter Jaya, Tanjung Priok, Jakarta Utara <br> DKI Jakarta 14350</p>
                     </div>
                     </div>
                 </div>
